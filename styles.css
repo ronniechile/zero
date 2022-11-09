@@ -79,6 +79,7 @@ html {
     width: 100%;
     left: 0;
     top: 0;
+    opacity: 0.97;
 
     z-index: var(--z-navbar);
 }
@@ -93,7 +94,7 @@ html {
     .navbar__menu {
         background-color: var(--color-bg);
         box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-        opacity: .9;
+        opacity: .96;
         
 
         position: fixed;
@@ -159,7 +160,7 @@ section {
     gap: 1rem;
 }
 
-/* .portfolio:nth-child(1) {
+.portfolio:nth-child(1) {
     transition-delay: 200ms;
 }
 
@@ -169,7 +170,7 @@ section {
 
 .portfolio:nth-child(3) {
     transition-delay: 600ms;
-} */
+} 
 
 .form {
     display: flex;
@@ -282,3 +283,4 @@ body {
     background-position: 100% 50%; 
   }
 }
+
